@@ -3,7 +3,7 @@
 
   <!-- ===== Device Tree (SM-A346E) ===== -->
   <project
-    name="A34-PeaceZone/android_device_samsung_a34x-e"
+    name="mkpromvp/android_device_samsung_a34x-e"
     path="device/samsung/a34x"
     remote="github"
     revision="lineage-23.2-a" />
