@@ -3,24 +3,17 @@
 
   <!-- ===== Device Tree (SM-A346E) ===== -->
   <project
-    name="mkpromvp/android_device_samsung_a34x-e"
+    name="A34-PeaceZone/android_device_samsung_a34x-e"
     path="device/samsung/a34x"
     remote="github"
     revision="lineage-23.2-a" />
 
-  <!-- ===== Vendor Blobs (A346EXXSADYG1) ===== -->
+  <!-- ===== Vendor Blobs ===== -->
   <project
     name="A34-PeaceZone/android_vendor_samsung_a34x-e"
     path="vendor/samsung/a34x"
     remote="github"
     revision="A346EXXSADYG1" />
-
-  <!-- ===== Kernel Source (Fede2782 - MT6877V) ===== -->
-  <project
-    name="Fede2782/android_kernel_samsung_a34x"
-    path="kernel/samsung/a34x"
-    remote="github"
-    revision="sep-17.0/stock" />
 
   <!-- ===== MTK Hardware HALs ===== -->
   <project
@@ -29,11 +22,12 @@
     remote="github"
     revision="lineage-23.2" />
 
+  <!-- ===== MTK Vendor SEPolicy ===== -->
   <project
-  name="LineageOS/android_device_mediatek_sepolicy_vndr"
-  path="device/mediatek/sepolicy_vndr"
-  remote="github"
-  revision="lineage-23.2" />
+    name="LineageOS/android_device_mediatek_sepolicy_vndr"
+    path="device/mediatek/sepolicy_vndr"
+    remote="github"
+    revision="lineage-23.2" />
 
   <!-- ===== Samsung SLSI SEPolicy ===== -->
   <project
@@ -48,12 +42,12 @@
     path="hardware/samsung"
     remote="github"
     revision="lineage-23.2" />
-  <!-- LineageOS Private Keys Placeholder -->
 
+  <!-- ===== LineageOS Private Keys ===== -->
   <project
-  name="TheMuppets/proprietary_vendor_lineage-priv_keys"
-  path="vendor/lineage-priv/keys"
-  remote="github"
-  revision="lineage-23.2" />
+    name="TheMuppets/proprietary_vendor_lineage-priv_keys"
+    path="vendor/lineage-priv/keys"
+    remote="github"
+    revision="lineage-23.2" />
 
 </manifest>
