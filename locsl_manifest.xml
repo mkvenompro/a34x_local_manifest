@@ -48,5 +48,12 @@
     path="hardware/samsung"
     remote="github"
     revision="lineage-23.2" />
+  <!-- LineageOS Private Keys Placeholder -->
+
+  <project
+  name="TheMuppets/proprietary_vendor_lineage-priv_keys"
+  path="vendor/lineage-priv/keys"
+  remote="github"
+  revision="lineage-23.2" />
 
 </manifest>
