@@ -44,10 +44,11 @@
     revision="lineage-23.2" />
 
   <!-- LineageOS Keys -->
-  <project
-    name="TheMuppets/proprietary_vendor_lineage"
-    path="vendor/lineage"
-    remote="github"
-    revision="lineage-23.2" />
+  <!-- شيل TheMuppets وحط ده بدله -->
+<project
+  name="mkpromvp/lineage_vendor_keys"
+  path="vendor/lineage-priv/keys"
+  remote="github"
+  revision="main" />
 
 </manifest>
