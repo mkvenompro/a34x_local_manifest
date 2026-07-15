@@ -46,7 +46,7 @@
   <!-- LineageOS Keys -->
   <!-- شيل TheMuppets وحط ده بدله -->
 <project
-  name="mkpromvp/lineage_vendor_keys"
+  name="mkvenompro/lineage_vendor_keys"
   path="vendor/lineage-priv/keys"
   remote="github"
   revision="main" />
