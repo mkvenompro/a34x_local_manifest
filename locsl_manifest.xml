@@ -54,7 +54,7 @@
   <!-- Build/Soong (with date/tar PATH tool fix) -->
   <remove-project name="LineageOS/android_build_soong" />
   <project
-    name="mkpromvp/android_build_soong"
+    name="mkvenompro/android_build_soong"
     path="build/soong"
     remote="github"
     revision="lineage-23.2" />
